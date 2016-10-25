@@ -26,3 +26,7 @@
 .Axiumlogo{
   height:80px;
 }
+
+.topsection{
+  padding-top:50px;height:80px;color: #fff;border: 2px solid gray; border-radius: 5px
+}

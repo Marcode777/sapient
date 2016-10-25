@@ -12,6 +12,7 @@ class App extends Component {
         <div className="App-header">
           <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo" />
         </div>
+
         <Toolbar>
           <Region>
             Export
@@ -28,6 +29,10 @@ class App extends Component {
             Save
           </Region>
         </Toolbar>
+
+        <div className="topsection">
+          <img src="topsection-background.png" className="topsectionpic" alt="topsection"/>
+        </div>  
 
       </div>
     );
