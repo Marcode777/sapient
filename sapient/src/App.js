@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
+var Toolbar = require('react-simple-toolbar');
+var Region = Toolbar.Region
+
 class App extends Component {
   render() {
     return (
@@ -9,9 +12,23 @@ class App extends Component {
         <div className="App-header">
           <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo" />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Toolbar>
+          <Region>
+            Export
+          </Region>
+ 
+          <Region flex={2}>
+            <Toolbar>
+              <Region align="center">Import from CSV</Region>
+              <Region align="center">Import from Excel</Region>
+            </Toolbar>
+          </Region>
+ 
+          <Region>
+            Save
+          </Region>
+        </Toolbar>
+
       </div>
     );
   }

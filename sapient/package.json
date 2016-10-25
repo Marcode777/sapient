@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-simple-toolbar": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
