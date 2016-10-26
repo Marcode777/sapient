@@ -36,8 +36,9 @@ class App extends Component {
             </select>
              <select>
                <option value="volvo">Clothing</option>
-               <option value="saab">Warm Apparel</option>
-               <option value="saab">Water Proof Apparel</option>
+               <option value="volvo">Warm Apparel</option>
+               <option value="volvo">Waterproof Apparel</option>
+
             </select>
              <select>
                <option value="volvo">Fishing</option>
@@ -56,6 +57,16 @@ class App extends Component {
             </select>
           </div>
         </div>
+
+
+        <div className="Navbar">
+          
+
+        </div>
+
+  
+
+
 
 
        
