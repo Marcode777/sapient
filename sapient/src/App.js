@@ -14,12 +14,14 @@ class App extends Component {
           <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo" />
         </div>
 
-        <div id="menuContainer"></div>
-          <div>
-            <p>Menu Section</p>
-            <p>Menu Section</p>
-            <p>Menu Section</p>
-          </div>
+        <div className="menuContainer">
+          <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
 
 
 
