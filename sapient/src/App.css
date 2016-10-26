@@ -28,5 +28,21 @@
 }
 
 .topsection{
-  padding-top:50px;height:80px;color: #fff;border: 2px solid gray; border-radius: 5px
+ background-image: url("/topsection-background.png");
+ height:330px;
 }
+
+.middlesection{
+  background-color: #d1d1e0;
+  height:330px;
+}
+
+.bottomsection{
+  background-color: #003399;
+  height:330px;
+}
+
+
+
+
+
