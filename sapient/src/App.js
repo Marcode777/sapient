@@ -29,42 +29,68 @@ class App extends Component {
         </div>
       <div>
           <div className="menuContainer">
-            <select>
-              <option value="volvo">Camping</option>
-              <option value="saab">Gear</option>
-              <option value="saab">Encampments</option>
-            </select>
-             <select>
-               <option value="volvo">Clothing</option>
-               <option value="volvo">Warm Apparel</option>
-               <option value="volvo">Waterproof Apparel</option>
+<nav className="navbar navbar-default">
+  <div className="container-fluid">
+   
+    <div className="navbar-header">
+      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown" aria-expanded="false">
+        <span className="sr-only">Toggle navigation</span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
+      </button>
+    </div>
 
-            </select>
-             <select>
-               <option value="volvo">Fishing</option>
-               <option value="saab">Fishing Poles</option>
-               <option value="saab">Bait & Tackle</option>
-            </select>
-            <select>
-               <option value="volvo">Hiking</option>
-               <option value="saab">Footwear</option>
-               <option value="saab">Socks</option>
-            </select>
-             <select>
-               <option value="volvo">Biking</option>
-               <option value="saab">Helmets</option>
-               <option value="saab">Bikes</option>
-            </select>
+   
+    <div className="collapse navbar-collapse" id="mydropdown">
+      <ul className="nav navbar-nav">
+        <li className="dropdown">
+          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
+          <ul className="dropdown-menu">
+            <li><a data-toggle="modal" data-target="#myModal" href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" className="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" className="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+
+        <li className="dropdown">
+          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
+          <ul className="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" className="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" className="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+
+        <li className="dropdown">
+          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
+          <ul className="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" className="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" className="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
           </div>
         </div>
 
 
-        <div className="Navbar">
-          
-
-        </div>
-
-  
 
 
 
@@ -92,6 +118,25 @@ class App extends Component {
           &nbsp;
           <a href="https://www.facebook.com/"><img src="fb-icon.png"/></a>
         </div>
+<div className="modal fade" tabindex="-1"  data-toggle="modal" id="myModal" role="dialog">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 className="modal-title">Modal title</h4>
+      </div>
+      <div className="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
       </div>
@@ -100,3 +145,5 @@ class App extends Component {
 }
 
 export default App;
+
+
