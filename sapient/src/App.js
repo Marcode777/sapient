@@ -15,9 +15,19 @@ class App extends Component {
     return (
       <div className="Axium">
         <div className="App-header">
-          <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo" />
+          <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo"/>
+            <div className="searchbox">
+              <input/>
+            </div>
+            <div className="socialtop">
+              <a href="https://twitter.com/"><img src="twitter-icon.png"/></a>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              <a href="https://www.facebook.com/"><img src="fb-icon.png"/></a>
+            </div>
         </div>
-        <div>
+      <div>
           <div className="menuContainer">
             <select>
               <option value="volvo">Camping</option>
