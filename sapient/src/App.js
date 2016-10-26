@@ -65,7 +65,11 @@ class App extends Component {
         </div>  
 
         <div className="footersection">
-          <img src="twitter-icon.png"/>
+        <a href="https://twitter.com/"><img src="twitter-icon.png"/></a>
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <a href="https://www.facebook.com/"><img src="fb-icon.png"/></a>
         </div>
 
 
