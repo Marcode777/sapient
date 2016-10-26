@@ -49,41 +49,65 @@ class App extends Component {
                 <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Camping <span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                    <li><a href="#">Gear</a></li>
-                    <li><a href="#">Encampments</a></li>
+                    <li><a href="#"> GEAR</a></li>
+                    <li><a href="#"> ENCAMPMENTS</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
 
                 <li className="dropdown">
-                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" data-img-url="tough-mojo-jacket-img.png"role="button" aria-haspopup="true" aria-expanded="false"> Clothing <span className="caret"></span></a>
+                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Clothing <span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                  <li><a data-toggle="modal" data-target="#myModal" href="#"><strong>CLICK THIS</strong></a></li>
-                    <li><a href="#">Warm Apparel</a></li>
-                    <li><a href="#">Water Proof Apparel</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal" href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
 
                 <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Fishing <span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                    <li><a href="#">Fishing Poles</a></li>
-                    <li><a href="#"> Bait & Tackle</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
 
               <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Hiking <span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                    <li><a href="#">Footwear</a></li>
-                    <li><a href="#">Socks</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
               </li>
 
               <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Biking <span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                    <li><a href="#"> Helmets</a></li>
-                    <li><a href="#"> Bikes</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
               </li>
 
@@ -132,13 +156,14 @@ class App extends Component {
     <div className="modal-content">
       <div className="modal-header">
         <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 className="modal-title">ToughMojoJacket</h4>
+        <h4 className="modal-title">Modal title</h4>
       </div>
       <div className="modal-body">
-        <img src="tough-mojo-jacket-img1.png"/>
+        <p>One fine body&hellip;</p>
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -153,5 +178,4 @@ class App extends Component {
 }
 
 export default App;
-
 
