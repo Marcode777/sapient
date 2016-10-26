@@ -6,6 +6,10 @@ import './App.css';
 
 
 
+
+
+
+
 class App extends Component {
   render() {
     return (
@@ -13,17 +17,38 @@ class App extends Component {
         <div className="App-header">
           <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo" />
         </div>
-
-        <div className="menuContainer">
-          <select>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-          </select>
+        <div>
+          <div className="menuContainer">
+            <select>
+              <option value="volvo">Camping</option>
+              <option value="saab">Gear</option>
+              <option value="saab">Encampments</option>
+            </select>
+             <select>
+               <option value="volvo">Clothing</option>
+               <option value="saab">Warm Apparel</option>
+               <option value="saab">Water Proof Apparel</option>
+            </select>
+             <select>
+               <option value="volvo">Fishing</option>
+               <option value="saab">Fishing Poles</option>
+               <option value="saab">Bait & Tackle</option>
+            </select>
+            <select>
+               <option value="volvo">Hiking</option>
+               <option value="saab">Footwear</option>
+               <option value="saab">Socks</option>
+            </select>
+             <select>
+               <option value="volvo">Biking</option>
+               <option value="saab">Helmets</option>
+               <option value="saab">Bikes</option>
+            </select>
+          </div>
         </div>
 
 
+       
 
        
 
