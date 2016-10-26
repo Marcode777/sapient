@@ -64,6 +64,10 @@ class App extends Component {
           <p>This is bottomsection.</p>
         </div>  
 
+        <div className="footersection">
+          <img src="twitter-icon.png"/>
+        </div>
+
 
       </div>
     );
