@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
-var Toolbar = require('react-simple-toolbar');
-var Region = Toolbar.Region
+
+
+
 
 class App extends Component {
   render() {
@@ -13,26 +14,29 @@ class App extends Component {
           <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo" />
         </div>
 
-        <Toolbar>
-          <Region>
-            Export
-          </Region>
- 
-          <Region flex={2}>
-            <Toolbar>
-              <Region align="center">Import from CSV</Region>
-              <Region align="center">Import from Excel</Region>
-            </Toolbar>
-          </Region>
- 
-          <Region>
-            Save
-          </Region>
-        </Toolbar>
+        <div id="menuContainer"></div>
+          <div>
+            <p>Menu Section</p>
+            <p>Menu Section</p>
+            <p>Menu Section</p>
+          </div>
+
+
+
+       
 
         <div className="topsection">
-          <img src="topsection-background.png" className="topsectionpic" alt="topsection"/>
+          <p>This is topsection.</p>
+        </div> 
+
+        <div className="middlesection">
+          <p>This is middlesection.</p>
         </div>  
+
+        <div className="bottomsection">
+          <p>This is bottomsection.</p>
+        </div>  
+
 
       </div>
     );
