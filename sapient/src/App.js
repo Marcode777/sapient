@@ -124,25 +124,27 @@ class App extends Component {
           &nbsp;
           &nbsp;
           <a href="https://www.facebook.com/"><img src="fb-icon.png"/></a>
+          <p>By Marco Sebello</p>
         </div>
 
 
-<div className="modal fade" tabindex="-1"  data-toggle="modal" id="myModal" role="dialog">
-  <div className="modal-dialog" role="document">
-    <div className="modal-content">
-      <div className="modal-header">
-        <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 className="modal-title">ToughMojoJacket</h4>
-      </div>
-      <div className="modal-body">
-        <img src="tough-mojo-jacket-img1.png"/>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+        <div className="modal fade" tabIndex="-1"  data-toggle="modal" id="myModal" role="dialog">
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 className="modal-title">ToughMojoJacket</h4>
+              </div>
+              <div className="modal-body">
+                <img src="tough-mojo-jacket-img1.png"/>
+                <p> This is the Tough Mojo jacket.</p>
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
