@@ -24,7 +24,7 @@
 }
 
 .Axiumlogo{
-  height:80px;
+  height:55px;
 }
 
 .topsection{
@@ -52,4 +52,10 @@
   text-align:center;
 }
 
+.socialtop{
+  text-align:right;
+}
 
+.searchbox{
+  text-align:right;
+}
