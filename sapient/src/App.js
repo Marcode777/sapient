@@ -15,7 +15,9 @@ class App extends Component {
         <div className="App-header">
           <img src="axiom-logo-main.png" className="Axiumlogo" alt="logo"/>
             <div className="searchbox">
-              <input/>
+              <form>
+                <input type="text" placeholder="search" />
+              </form>
             </div>
             <div className="socialtop">
               <a href="https://twitter.com/"><img src="twitter-icon.png" role="presentation" /></a>
@@ -55,7 +57,7 @@ class App extends Component {
                 <li className="dropdown">
                 <a href="#" className="dropdown-toggle" data-toggle="dropdown" data-img-url="tough-mojo-jacket-img.png"role="button" aria-haspopup="true" aria-expanded="false">Clothing<span className="caret"></span></a>
                   <ul className="dropdown-menu">
-                  <li><a data-toggle="modal" data-target="#myModal" href="#"><strong>CLICK THIS</strong></a></li>
+                  <li><a data-toggle="modal" data-target="#myModal" href="#">CLICK THIS FOR JACKET</a></li>
                     <li><a href="#">Warm Apparel</a></li>
                     <li><a href="#">Water Proof Apparel</a></li>
                   </ul>
@@ -105,7 +107,7 @@ class App extends Component {
        
 
         <div className="topsection">
-          <p>This is topsection.</p>
+          <p>Axium offers the highest quality clothing for your apparel needs. Please use the menu above, click the clothing tab and "CLICK FOR THIS JACKET" to see an image of our Tough Mojo Jacket!</p>
         </div> 
 
         <div className="middlesection">
@@ -114,7 +116,7 @@ class App extends Component {
 
         <div className="bottomsection">
           <p>This is bottomsection.</p>
-
+          <li className="reviewLink"><a data-toggle="modal" data-target="#writeReview" href="#">PLEASE CLICK HERE TO WRITE A REVIEW</a></li>
         </div>  
 
         <div className="footersection">
@@ -136,7 +138,7 @@ class App extends Component {
               </div>
               <div className="modal-body">
                 <img src="tough-mojo-jacket-img1.png" role="presentation"/>
-                <p> This is the Tough Mojo jacket.</p>
+                <p> This is the Tough Mojo Jacket.</p>
               </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
@@ -145,7 +147,24 @@ class App extends Component {
           </div>
         </div>
 
-        
+
+        <div className="modal fade" tabIndex="-1"  data-toggle="modal" id="writeReview" role="dialog">
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 className="modal-title">Please leave a review for your product here. Thanks!</h4>
+              </div>
+              <div className="modal-body">
+                <p>Please leave a review here.</p>
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 
 
