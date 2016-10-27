@@ -30,10 +30,13 @@
 .topsection{
  background-image: url("/topsection-background.png");
  height:330px;
+ text-align:center;
+ color:white;
+
 }
 
 .middlesection{
-  background-color: #d1d1e0;
+  background-color: grey;
   height:330px;
 }
 
@@ -71,7 +74,7 @@ body{
 
 
 .dropdown-toggle {
-  color: white;
+  color: grey;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
@@ -86,6 +89,11 @@ body{
   background-color: grey;
 }
 
-.jacket{
-  color:yellow;
+.reviewLink{
+  text-align:center;
+}
+
+p{
+   font-family: 'Raleway', sans-serif;
+   font-size: 22px;
 }
