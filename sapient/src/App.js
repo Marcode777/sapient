@@ -111,7 +111,16 @@ class App extends Component {
         </div> 
 
         <div className="middlesection">
-          <p>This is middlesection.</p>
+          <div className="col-md-9">
+            <ul>
+              <li><img src="tough-mojo-jacket-img2.png" className="jacket2" role="presentation"/></li>
+            </ul>
+          </div>
+          <div className="col-md-3">
+            <ul>
+              <li><p>Our most insulated jacket to date, the city-styled Highline is designed to keep you warm during the deep freeze of winter.</p></li>
+            </ul>
+          </div>
         </div>  
 
         <div className="bottomsection">
@@ -134,7 +143,7 @@ class App extends Component {
             <div className="modal-content">
               <div className="modal-header">
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 className="modal-title">ToughMojoJacket</h4>
+                <h4 className="modal-title">Clothing->ToughMojoJacket</h4>
               </div>
               <div className="modal-body">
                 <img src="tough-mojo-jacket-img1.png" role="presentation"/>
@@ -160,7 +169,7 @@ class App extends Component {
                 <p>Please leave a review here.</p>
                 <div className="form">
                   <label>Review:</label>
-                  <input type="text" class="form-control"/>
+                  <input type="text" className="form-control"/>
                 </div>
               </div>
               <div className="modal-footer">
