@@ -69,3 +69,23 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+
+.dropdown-toggle {
+  color: white;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+
+
+#mydropdown:hover{
+  transition: 1.0s ease 0s;
+  background-color: grey;
+}
+
+.jacket{
+  color:yellow;
+}
