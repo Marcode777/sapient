@@ -37,7 +37,8 @@
 
 .middlesection{
   background-color: grey;
-  height:330px;
+  height:547px;
+  color:white;
 }
 
 .bottomsection{
@@ -97,3 +98,9 @@ p{
    font-family: 'Raleway', sans-serif;
    font-size: 22px;
 }
+
+ul{
+  list-style-type: none;
+}
+
+
