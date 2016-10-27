@@ -8,8 +8,6 @@ import './App.css';
 
 
 
-
-
 class App extends Component {
   render() {
     return (
@@ -20,11 +18,11 @@ class App extends Component {
               <input/>
             </div>
             <div className="socialtop">
-              <a href="https://twitter.com/"><img src="twitter-icon.png"/></a>
+              <a href="https://twitter.com/"><img src="twitter-icon.png" role="presentation" /></a>
               &nbsp;
               &nbsp;
               &nbsp;
-              <a href="https://www.facebook.com/"><img src="fb-icon.png"/></a>
+              <a href="https://www.facebook.com/"><img src="fb-icon.png" role="presentation"/></a>
             </div>
         </div>
 
@@ -55,7 +53,7 @@ class App extends Component {
                 </li>
 
                 <li className="dropdown">
-                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" data-img-url="tough-mojo-jacket-img.png"role="button" aria-haspopup="true" aria-expanded="false"> Clothing <span className="caret"></span></a>
+                <a href="#" className="dropdown-toggle" data-toggle="dropdown" data-img-url="tough-mojo-jacket-img.png"role="button" aria-haspopup="true" aria-expanded="false">Clothing<span className="caret"></span></a>
                   <ul className="dropdown-menu">
                   <li><a data-toggle="modal" data-target="#myModal" href="#"><strong>CLICK THIS</strong></a></li>
                     <li><a href="#">Warm Apparel</a></li>
@@ -116,14 +114,15 @@ class App extends Component {
 
         <div className="bottomsection">
           <p>This is bottomsection.</p>
+
         </div>  
 
         <div className="footersection">
-        <a href="https://twitter.com/"><img src="twitter-icon.png"/></a>
+        <a href="https://twitter.com/"><img src="twitter-icon.png" role="presentation"/></a>
           &nbsp;
           &nbsp;
           &nbsp;
-          <a href="https://www.facebook.com/"><img src="fb-icon.png"/></a>
+          <a href="https://www.facebook.com/"><img src="fb-icon.png" role="presentation" /></a>
           <p>By Marco Sebello</p>
         </div>
 
@@ -136,7 +135,7 @@ class App extends Component {
                 <h4 className="modal-title">ToughMojoJacket</h4>
               </div>
               <div className="modal-body">
-                <img src="tough-mojo-jacket-img1.png"/>
+                <img src="tough-mojo-jacket-img1.png" role="presentation"/>
                 <p> This is the Tough Mojo jacket.</p>
               </div>
               <div className="modal-footer">
@@ -146,6 +145,7 @@ class App extends Component {
           </div>
         </div>
 
+        
 
 
 
