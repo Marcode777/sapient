@@ -139,6 +139,7 @@ class App extends Component {
               <div className="modal-body">
                 <img src="tough-mojo-jacket-img1.png" role="presentation"/>
                 <p> This is the Tough Mojo Jacket.</p>
+                <li className="reviewLink"><a data-toggle="modal" data-target="#writeReview" href="#">WRITE A REVIEW OF THIS PRODUCT</a></li>
               </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
@@ -157,9 +158,13 @@ class App extends Component {
               </div>
               <div className="modal-body">
                 <p>Please leave a review here.</p>
+                <div className="form">
+                  <label>Review:</label>
+                  <input type="text" class="form-control"/>
+                </div>
               </div>
               <div className="modal-footer">
-                <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" className="btn btn-default" data-dismiss="modal">Submit A Review</button>
               </div>
             </div>
           </div>
