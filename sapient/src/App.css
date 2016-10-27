@@ -43,7 +43,7 @@
 
 .bottomsection{
   background-color: #003399;
-  height:330px;
+  height:407px;
 }
 
 .menuContainer{
@@ -56,6 +56,7 @@
   height:100px;
   background-color:black;
   text-align:center;
+ 
 }
 
 .socialtop{
@@ -92,6 +93,7 @@ body{
 
 .reviewLink{
   text-align:center;
+  text-decoration: underline;
 }
 
 p{
@@ -101,6 +103,37 @@ p{
 
 ul{
   list-style-type: none;
+}
+
+.reviews{
+  text-align:center;
+  font-size: 50px;
+  color:white;
+}
+
+.reviewer1{
+  color:white;
+}
+
+.Shaun{
+  color:white;
+}
+
+.reviewer2{
+  color:white;
+}
+
+.Jennie{
+  color:white;
+}
+
+.footers{
+  text-align: center;
+}
+
+.tag{
+  font-size: 17px;
+  text-align: center;
 }
 
 

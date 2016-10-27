@@ -7,7 +7,6 @@ import './App.css';
 
 
 
-
 class App extends Component {
   render() {
     return (
@@ -29,7 +28,7 @@ class App extends Component {
         </div>
 
 
-      <div>
+        <div>
           <div className="menuContainer">
             <nav className="navbar navbar-default">
             <div className="container-fluid">
@@ -71,40 +70,29 @@ class App extends Component {
                   </ul>
                 </li>
 
-              <li className="dropdown">
+                <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Hiking <span className="caret"></span></a>
                   <ul className="dropdown-menu">
                     <li><a href="#">Footwear</a></li>
                     <li><a href="#">Socks</a></li>
                   </ul>
-              </li>
+                </li>
 
-              <li className="dropdown">
+                <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Biking <span className="caret"></span></a>
                   <ul className="dropdown-menu">
                     <li><a href="#"> Helmets</a></li>
                     <li><a href="#"> Bikes</a></li>
                   </ul>
-              </li>
-
+                </li>
               </ul>
-      
+            </div>
 
+                </div>
+             </nav>
+            </div>
+         </div>
 
-    </div>
-  </div>
-</nav>
-          </div>
-        </div>
-
-
-
-
-
-
-       
-
-       
 
         <div className="topsection">
           <p>Axium offers the highest quality clothing for your apparel needs. Please use the menu above, click the clothing tab and "CLICK FOR THIS JACKET" to see an image of our Tough Mojo Jacket!</p>
@@ -113,29 +101,79 @@ class App extends Component {
         <div className="middlesection">
           <div className="col-md-9">
             <ul>
-              <li><img src="tough-mojo-jacket-img2.png" className="jacket2" role="presentation"/></li>
+              <li>
+                <img src="tough-mojo-jacket-img2.png" className="jacket2" role="presentation"/>
+              </li>
             </ul>
           </div>
           <div className="col-md-3">
             <ul>
-              <li><p>Our most insulated jacket to date, the city-styled Highline is designed to keep you warm during the deep freeze of winter.</p></li>
+              <li>
+                <p>Our most insulated jacket to date, the city-styled Highline is designed to keep you warm during the deep freeze of winter.</p>
+              </li>
             </ul>
           </div>
         </div>  
 
         <div className="bottomsection">
-          <p>This is bottomsection.</p>
-          <li className="reviewLink"><a data-toggle="modal" data-target="#writeReview" href="#">PLEASE CLICK HERE TO WRITE A REVIEW</a></li>
-        </div>  
+          <p className="reviews">Reviews</p>
+            <ul>
+              <li className="reviewLink"><a data-toggle="modal" data-target="#writeReview" href="#">WRITE A REVIEW ON THIS PRODUCT</a></li>
+            </ul>
+          <div className="row">
+            <div className="col-md-3">
+              <ul>
+                <li>
+                  <figure className="Shaun">
+                    <img src="reviewer1.png" className="reviewer1" role="presentation"/>
+                    <figcaption>Shaun White</figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div> 
+            <div className="col-md-9">
+              <ul>
+                <li>
+                  <p className="reviewer1">THIS THING IS AWESOME! I picked up this jacket for use in San Francisco and the surrounding Bay Area (Lake Tahoe included).</p>
+                </li>
+              </ul>
+            </div>
+          </div>
 
+          <div className="row">
+             <div className="col-md-3">
+              <ul>
+                <li>
+                  <figure className="Jennie">
+                    <img src="reviewer2.png" className="reviewer2" role="presentation"/>
+                    <figcaption>Jennie Loren</figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div> 
+            <div className="col-md-9">
+              <ul>
+                <li>
+                  <p className="reviewer2">Loved this jacket so much from previous years I decided to buy a second in a different color. </p>
+                </li>
+              </ul>
+            </div> 
+          </div>
+        </div> 
+
+
+        
         <div className="footersection">
-        <a href="https://twitter.com/"><img src="twitter-icon.png" role="presentation"/></a>
-          &nbsp;
-          &nbsp;
-          &nbsp;
-          <a href="https://www.facebook.com/"><img src="fb-icon.png" role="presentation" /></a>
-          <p>By Marco Sebello</p>
+          <div className="col-md-12">
+            <a href="https://twitter.com/" ><img src="twitter-icon.png" className="footers" role="presentation"/></a>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+            <a href="https://www.facebook.com/"><img src="fb-icon.png" className="footers" role="presentation"/></a>
+            <p className="tag">By Marco Sebello</p>
+          </div>
         </div>
+
 
 
         <div className="modal fade" tabIndex="-1"  data-toggle="modal" id="myModal" role="dialog">
@@ -178,7 +216,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-
 
 
 
